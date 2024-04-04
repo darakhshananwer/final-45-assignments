@@ -3,3 +3,6 @@
 //Then use your list to print a message to each person, inviting them to dinner.
 
 
+let guests :string[] = ["Tooba","Munazza","Nabeeha"]; 
+
+guests.forEach(guest =>{console.log(`Dear ${guest},It is our pleasure to invite you in our party.`);});
