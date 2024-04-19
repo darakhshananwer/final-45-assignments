@@ -1,3 +1,4 @@
+"use strict";
 // Conditional Tests: Write a series of conditional tests. Print a statement describing each test and 
 // your prediction for the results of each test. Your code should look something like this:
 // let car = 'subaru';
@@ -7,7 +8,7 @@
 // • Create at least 10 tests. Have at least 5 tests evaluate to True and another 5 tests evaluate to False.
 //creating car variable
 //test no 1
-var car = 'subaru';
+let car = 'subaru';
 console.log("Is car=='subaru'?I preduction is true");
 console.log(car == 'subaru');
 //test no 2
